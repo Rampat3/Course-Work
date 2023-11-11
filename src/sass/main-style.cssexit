@@ -1,0 +1,25 @@
+a {
+  text-decoration: none;
+}
+
+.NavMenu {
+  background-color: white;
+  box-shadow: black;
+  display: flex;
+  padding: 15px;
+}
+.NavMenu__icons {
+  display: flex;
+  align-items: center;
+}
+.NavMenu__icons img {
+  width: 50px;
+}
+.NavMenu__icons a {
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  font-family: cursive;
+}
+
+/*# sourceMappingURL=main-style.cssexit.map */
