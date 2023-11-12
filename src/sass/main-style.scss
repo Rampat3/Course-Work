@@ -1,5 +1,6 @@
 @import "blocks/general-css.scss";
 @import "blocks/header.scss";
+@import "blocks/promo-header.scss";
 
 $ui-index-1: 1; //Для наползающих элементов в общем потоке
 $ui-index-2: 2; //Для наползающих элементов в общем потоке
@@ -7,3 +8,24 @@ $ui-index-3: 3; //Для масок
 $ui-index-4: 4; //Для сайдбаров
 $ui-index-5: 5; //Для модалок
 $ui-index-6: 6; //Для элементов, перекрывающих все
+
+.content{
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.title{
+  &__text{
+    font-size: 35px;
+    font-weight: 700;
+    &__p{
+      font-size: 15px;
+    }
+  }
+}
+
+ul{
+  li{
+  list-style-type: none;
+  }
+}

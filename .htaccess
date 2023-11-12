@@ -3,4 +3,4 @@ AddDefaultCharset UTF-8
 RewriteEngine on
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule .* www/index.html [L]
+RewriteRule .* www/index.php [L]

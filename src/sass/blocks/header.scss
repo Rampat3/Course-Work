@@ -4,6 +4,8 @@
 
   display: flex;
   padding: 15px;
+
+  position: relative;
   &__icons{
     display: flex;
     align-items: center;
@@ -26,6 +28,10 @@
     font-size: 20px;
     font-weight: 600;
     margin: 0px 0px 0px 30px;
+
+    a{
+      color: black;
+    }
   }
 
   &__search{
