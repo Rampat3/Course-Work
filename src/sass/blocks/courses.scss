@@ -1,0 +1,37 @@
+.courses{
+  ul{
+    margin: 30px 0 15px 0;
+    padding: unset;
+
+    display: flex;
+    justify-content: flex-start;
+    li{
+      margin: 0 35px 0 0;
+    a{
+      color: #6a6f73;
+      font-weight: 700;
+      font-size: 17px;
+      &:focus{
+        color: black;
+      }
+    }
+    }
+  }
+  &__tab{
+    border: 1px solid #d1d7dc;
+    padding: 25px;
+  }
+}
+
+.tab-content{
+  &__text{
+    width: 60%;
+    &-header{
+      font-size: 25px;
+      font-weight: bolder;
+    }
+    &-p{
+      font-size: 15px;
+    }
+  }
+}
