@@ -1,0 +1,14 @@
+.feedback{
+
+  &__body{
+    &-header{
+    text-align: center;
+    }
+    &-content{
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: auto;
+    }
+  }
+}

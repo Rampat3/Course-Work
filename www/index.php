@@ -26,9 +26,14 @@
                 include "../src/contents/courses.php";
             ?>
         </section>
-        <section class="category">
+        <section id="categories" class="category">
             <?php
                 include "../src/contents/category.php";
+            ?>
+        </section>
+        <section class="feedback">
+            <?php
+                include "../src/contents/feedback.php";
             ?>
         </section>
     </main>

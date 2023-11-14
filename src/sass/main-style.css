@@ -153,6 +153,16 @@ a {
   color: black;
 }
 
+.feedback__body-header {
+  text-align: center;
+}
+.feedback__body-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
 .content {
   width: 1300px;
   margin: 0 auto;

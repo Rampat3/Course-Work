@@ -4,7 +4,7 @@
         <a href="#">Academy</a>
     </div>
     <div class="NavMenu__categories">
-        <a href="#">Категории</a>
+        <a href="#categories">Категории</a>
     </div>
     <div class="NavMenu__search">
         <form>
