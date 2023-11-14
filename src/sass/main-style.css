@@ -163,6 +163,20 @@ a {
   margin: auto;
 }
 
+.footer {
+  margin: 100px 0 0 0;
+  background: #1c1d1f;
+  padding: 0 0 10px 0;
+}
+.footer__body ul {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__body ul li {
+  color: white;
+}
+
 .content {
   width: 1300px;
   margin: 0 auto;
