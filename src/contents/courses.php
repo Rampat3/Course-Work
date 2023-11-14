@@ -8,19 +8,10 @@
             <a  href="#1" data-toggle="tab">Python</a>
         </li>
         <li>
-            <a href="#2" data-toggle="tab">Excel</a>
-        </li>
-        <li>
-            <a href="#3" data-toggle="tab">Вуб-разработка</a>
+            <a href="#3" data-toggle="tab">Веб-разработка</a>
         </li>
         <li>
             <a href="#4" data-toggle="tab">JavaScript</a>
-        </li>
-        <li>
-            <a href="#5" data-toggle="tab">Обработка и анализ данных</a>
-        </li>
-        <li>
-            <a href="#6" data-toggle="tab">Amazon AWS</a>
         </li>
     </ul>
     <div class="courses__tab tab-content ">
@@ -63,54 +54,6 @@
                             <img src="../src/img/course/python.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Python</h5>
-                                <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-
-        <div class="courses__tab-content-body tab-pane" id="2">
-            <div class="tab-content__text">
-                <p class="tab-content__text-header">Анализ и визуализация данных в Excel</p>
-                <p class="tab-content__text-p">Excel — приложение для работы с электронными таблицами, эта программа входит в офисный пакет Microsoft Office и помогает упорядочивать данные. Наличие формул и сводных таблиц помогают бизнесу получать критически важные аналитические данные...</p>
-            </div>
-            <div class="tab-content__cards">
-                <ul>
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <img src="../src/img/course/excel.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Excel</h5>
-                                <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <img src="../src/img/course/excel.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Excel</h5>
-                                <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <img src="../src/img/course/excel.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Excel</h5>
-                                <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <img src="../src/img/course/excel.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Excel</h5>
                                 <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
                             </div>
                         </div>
@@ -207,101 +150,6 @@
                             <img src="../src/img/course/js.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">JavaScript</h5>
-                                <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-
-        <div class="courses__tab-content-body tab-pane" id="5">
-            <div class="tab-content__text">
-                <p class="tab-content__text-header">Изучайте анализ и обработку данных и принимайте взвешенные решения</p>
-                <p class="tab-content__text-p">Анализ и обработка данных начинают проникать во все сферы жизни. Это помогает многим компаниям сокращать ненужные расходы, автоматизировать процессы и анализировать рынки. По большому счету анализ и обработка данных нужны, чтобы выдерживать конкуренцию на глобальном рынке.</p>
-            </div>
-            <div class="tab-content__cards">
-                <ul>
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <img src="../src/img/course/db.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Обработка и анализ данных</h5>
-                                <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <img src="../src/img/course/db.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Обработка и анализ данных</h5>
-                                <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <img src="../src/img/course/db.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Обработка и анализ данных</h5>
-                                <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <img src="../src/img/course/db.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Обработка и анализ данных</h5>
-                                <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-
-        <div class="tab-pane" id="6">
-            <div class="tab-content__text">
-                <p class="tab-content__text-header">Станьте экспертом в облачных вычислениях с сертификацией AWS</p>
-            </div>
-            <div class="tab-content__cards">
-                <ul>
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <img src="../src/img/course/aws.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">AWS</h5>
-                                <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <img src="../src/img/course/aws.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">AWS</h5>
-                                <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <img src="../src/img/course/aws.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">AWS</h5>
-                                <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card" style="width: 18rem;">
-                            <img src="../src/img/course/aws.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">AWS</h5>
                                 <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
                             </div>
                         </div>
