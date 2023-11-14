@@ -1,0 +1,31 @@
+.category{
+  margin: 50px 0 0 0;
+  &__body{
+    &-header{
+
+    }
+    &-list{
+      ul{
+        padding: unset;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        li{
+          margin: 0px 0 10px 0;
+          img{
+            transition: transform .5s;
+            &:hover{
+              transform: scale(1.03);
+              transition: transform .5s;
+            }
+          }
+          a{
+            font-weight: bold;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

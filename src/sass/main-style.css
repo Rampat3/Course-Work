@@ -128,8 +128,29 @@ a {
 .tab-content__text-p {
   font-size: 15px;
 }
-.tab-content__cards ul li {
-  content: "";
+
+.category {
+  margin: 50px 0 0 0;
+}
+.category__body-list ul {
+  padding: unset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.category__body-list ul li {
+  margin: 0px 0 10px 0;
+}
+.category__body-list ul li img {
+  transition: transform 0.5s;
+}
+.category__body-list ul li img:hover {
+  transform: scale(1.03);
+  transition: transform 0.5s;
+}
+.category__body-list ul li a {
+  font-weight: bold;
+  color: black;
 }
 
 .content {
