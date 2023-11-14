@@ -5,7 +5,7 @@
                 Academy
             </li>
             <li>
-                © 2023 Udemy, Inc.
+                © 2023 Academy , Inc.
             </li>
         </ul>
     </div>
