@@ -1,0 +1,390 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../src/icons/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../src/sass/main-style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Academy</title>
+</head>
+<body>
+<header>
+    <div class="NavMenu">
+        <div class="NavMenu__icons">
+            <img src="../src/icons/icon.png" alt="">
+            <a href="index.html">Academy</a>
+        </div>
+        <div class="NavMenu__categories">
+            <a href="#categories">Категории</a>
+        </div>
+        <div class="NavMenu__search">
+            <form>
+                <input type="text" placeholder="Ищите что угодно">
+                <button type="submit">Поиск</button>
+            </form>
+        </div>
+        <div class="NavMenu__authorization">
+            <div class="NavMenu__authorization-login">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Войти
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Войти</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email адрес</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer" style="display: flex; justify-content: center;">
+                                <button type="button" class="btn btn-dark">Авторизоваться</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="NavMenu__authorization-register">
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    Регистрация
+                </button>
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Регистрация</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Имя</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Номер телефона</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email адрес</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer" style="display: flex; justify-content: center;">
+                                <button type="button" class="btn btn-dark">Зарегистрироваться</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="content">
+    <div>
+        <h1 style="font-weight: bolder; margin: 50px 0">Курсы в категории "ИТ и ОП"</h1>
+    </div>
+    <section class="design-course">
+        <div class="design-course__header title__text">
+            <p>Начните с этих курсов</p>
+        </div>
+        <div id="exTab2" class="courses courses__body">
+            <ul>
+                <li class="active">
+                    <a  href="#1" data-toggle="tab">Самые популярные</a>
+                </li>
+                <li>
+                    <a href="#3" data-toggle="tab">Добавлено</a>
+                </li>
+                <li>
+                    <a href="#4" data-toggle="tab">Популярные</a>
+                </li>
+            </ul>
+            <div class="courses__tab tab-content" style="border: none">
+                <div class="courses__tab-content-body tab-pane active" id="1">
+                    <div class="tab-content__cards">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/it/popular.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-title">Изучаем Linux и командную строку. Линукс шаг за шагом</p>
+                                            <p class="card-text" style="font-size: 13px;">Evgeniy Solovey</p>
+                                            <p>5 990 руб.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/it/popular.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-title">Изучаем Linux и командную строку. Линукс шаг за шагом</p>
+                                            <p class="card-text" style="font-size: 13px;">Evgeniy Solovey</p>
+                                            <p>5 990 руб.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/it/popular.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-title">Изучаем Linux и командную строку. Линукс шаг за шагом</p>
+                                            <p class="card-text" style="font-size: 13px;">Evgeniy Solovey</p>
+                                            <p>5 990 руб.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li><li>
+                            <a href="#">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../src/img/course/it/popular.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title">Изучаем Linux и командную строку. Линукс шаг за шагом</p>
+                                        <p class="card-text" style="font-size: 13px;">Evgeniy Solovey</p>
+                                        <p>5 990 руб.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="courses__tab-content-body tab-pane" id="3">
+                    <div class="tab-content__cards">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/it/added.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-title">AWS - С Нуля до Профессионала (Amazon Web Services)</p>
+                                            <p class="card-text" style="font-size: 13px;">Evgeniy Solovey</p>
+                                            <p>11 990 руб.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li><li>
+                            <a href="#">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../src/img/course/it/added.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title">AWS - С Нуля до Профессионала (Amazon Web Services)</p>
+                                        <p class="card-text" style="font-size: 13px;">Evgeniy Solovey</p>
+                                        <p>11 990 руб.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li><li>
+                            <a href="#">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../src/img/course/it/added.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title">AWS - С Нуля до Профессионала (Amazon Web Services)</p>
+                                        <p class="card-text" style="font-size: 13px;">Evgeniy Solovey</p>
+                                        <p>11 990 руб.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li><li>
+                            <a href="#">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../src/img/course/it/added.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title">AWS - С Нуля до Профессионала (Amazon Web Services)</p>
+                                        <p class="card-text" style="font-size: 13px;">Evgeniy Solovey</p>
+                                        <p>11 990 руб.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="courses__tab-content-body tab-pane" id="4">
+                    <div class="tab-content__cards">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/it/popularity.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-title">Terraform с Нуля до Сертифицированного Профессионала</p>
+                                            <p class="card-text" style="font-size: 13px;">Evgeniy Solovey</p>
+                                            <p>2 990 руб.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li><li>
+                            <a href="#">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../src/img/course/it/popularity.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title">Terraform с Нуля до Сертифицированного Профессионала</p>
+                                        <p class="card-text" style="font-size: 13px;">Evgeniy Solovey</p>
+                                        <p>2 990 руб.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li><li>
+                            <a href="#">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../src/img/course/it/popularity.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title">Terraform с Нуля до Сертифицированного Профессионала</p>
+                                        <p class="card-text" style="font-size: 13px;">Evgeniy Solovey</p>
+                                        <p>2 990 руб.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li><li>
+                            <a href="#">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../src/img/course/it/popularity.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title">Terraform с Нуля до Сертифицированного Профессионала</p>
+                                        <p class="card-text" style="font-size: 13px;">Evgeniy Solovey</p>
+                                        <p>2 990 руб.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="design-course__wrapper">
+            <line></line>
+            <ul>
+                <li>
+                    <img src="../src/icons/design/infinity.png" alt="">
+                    <p>Изучайте востребованные навыки с помощью более 210 000 видеокурсов</p>
+                </li>
+                <li>
+                    <img src="../src/icons/design/infinity.png" alt="">
+                    <p>Выбирайте курсы от экспертов с реальным опытом</p>
+                </li>
+                <li>
+                    <img src="../src/icons/design/infinity.png" alt="">
+                    <p>Учитесь в удобном темпе с помощью пожизненного доступа с мобильных устройств и ПК</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="recomm">
+        <div class="recomm__header title__text">
+            <p>Начните с этих курсов</p>
+        </div>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="recomm__body-img" style="float: left">
+                        <img src="../src/img/slider/it.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="recomm__body-content">
+                        <p class="title__text">
+                            SQL для нетехнических специалистов
+                        </p>
+                        <p class="title__text-p">
+                            SQL без головной боли: управляйте данными как профи
+                        </p>
+                        <p class="title__text-p" style=" margin: 60px 0 0 0; font-weight: bolder;">
+                            7 990 руб.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="recomm__body-img" style="float: left">
+                        <img src="../src/img/slider/it.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="recomm__body-content">
+                        <p class="title__text">
+                            SQL для нетехнических специалистов
+                        </p>
+                        <p class="title__text-p">
+                            SQL без головной боли: управляйте данными как профи
+                        </p>
+                        <p class="title__text-p" style=" margin: 60px 0 0 0; font-weight: bolder;">
+                            7 990 руб.
+                        </p>
+                    </div>
+                </div><div class="carousel-item">
+                <div class="recomm__body-img" style="float: left">
+                    <img src="../src/img/slider/it.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="recomm__body-content">
+                    <p class="title__text">
+                        SQL для нетехнических специалистов
+                    </p>
+                    <p class="title__text-p">
+                        SQL без головной боли: управляйте данными как профи
+                    </p>
+                    <p class="title__text-p" style=" margin: 60px 0 0 0; font-weight: bolder;">
+                        7 990 руб.
+                    </p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" style="justify-content: space-between">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" style="justify-content: flex-end">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer__body">
+            <ul>
+                <li>
+                    Academy
+                </li>
+                <li>
+                    © 2023 Academy , Inc.
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<style>
+    a{
+        text-decoration: none;
+    }
+</style>
+</body>
+</html>

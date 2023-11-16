@@ -1,0 +1,43 @@
+.design-course{
+  &__wrapper{
+    border-top: 2px solid #d1d7dc;
+    border-bottom: 2px solid #d1d7dc;
+
+    padding: 30px 0 0 0;
+    margin: 50px 0;
+    ul{
+      display: flex;
+      padding: unset;
+      li{
+        display: flex;
+
+        img{
+          width: 12%;
+          height: 75%;
+        }
+        p{
+          font-size: 15px;
+          font-weight: 700;
+
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}
+
+.recomm{
+  &__body{
+    &img{
+      width: 645px;
+    }
+    &-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 50%;
+      height: 81%;
+      padding: 0 0 45px 0;
+    }
+  }
+}

@@ -1,0 +1,376 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="src/icons/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/sass/main-style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Academy</title>
+</head>
+<body>
+    <header>
+        <div class="NavMenu">
+            <div class="NavMenu__icons">
+                <img src="../src/icons/icon.png" alt="">
+                <a href="index.html">Academy</a>
+            </div>
+            <div class="NavMenu__categories">
+                <a href="#categories">Категории</a>
+            </div>
+            <div class="NavMenu__search">
+                <form>
+                    <input type="text" placeholder="Ищите что угодно">
+                    <button type="submit">Поиск</button>
+                </form>
+            </div>
+            <div class="NavMenu__authorization">
+                <div class="NavMenu__authorization-login">
+                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Войти
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Войти</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email адрес</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer" style="display: flex; justify-content: center;">
+                                    <button type="button" class="btn btn-dark">Авторизоваться</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="NavMenu__authorization-register">
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                        Регистрация
+                    </button>
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Регистрация</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Имя</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Номер телефона</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email адрес</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer" style="display: flex; justify-content: center;">
+                                    <button type="button" class="btn btn-dark">Зарегистрироваться</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="content">
+        <section class="promo-header">
+            <div class="promo-header__img">
+                <img src="../src/img/bg-header.jpg" alt="" width="100%">
+            </div>
+            <div class="promo-header__text">
+                <div class="promo-header__text-bg">
+                    <div class="title__text">
+                        <p>
+                            Academy программирования
+                        </p>
+                    </div>
+                    <div class="title__text-p">
+                        <p>
+                            Образовательный сайт по изучению программирования для школьников старших классов
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="promo-header__companies">
+                <div class="promo-header__companies-text title__text-p">
+                    Нам доверяют более 15 000 компаний и миллионы учащихся по всему миру
+                </div>
+                <div class="promo-header__companies-img">
+                    <ul>
+                        <li><img src="../src/icons/companies/volkswagen.svg" alt=""></li>
+                        <li><img src="../src/icons/companies/samsung.svg" alt=""></li>
+                        <li><img src="../src/icons/companies/cisco.svg" alt=""></li>
+                        <li><img src="../src/icons/companies/att.svg" alt=""></li>
+                        <li><img src="../src/icons/companies/procter_gamble.svg" alt=""></li>
+                        <li><img src="../src/icons/companies/hewlett_packard_enterprise.svg" alt=""></li>
+                        <li><img src="../src/icons/companies/citi.svg" alt=""></li>
+                        <li><img src="../src/icons/companies/ericsson.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="courses">
+            <div class="courses__header">
+                <p class="title__text">Большой выбор курсов</p>
+                <p class="title__text-p">Выбирайте из более чем 210 000 онлайн-видеокурсов; новые курсы добавляются на сайт каждый месяц</p>
+            </div>
+            <div id="exTab2" class="courses__body">
+                <ul>
+                    <li class="active">
+                        <a  href="#1" data-toggle="tab">Python</a>
+                    </li>
+                    <li>
+                        <a href="#3" data-toggle="tab">Веб-разработка</a>
+                    </li>
+                    <li>
+                        <a href="#4" data-toggle="tab">JavaScript</a>
+                    </li>
+                </ul>
+                <div class="courses__tab tab-content ">
+                    <div class="courses__tab-content-body tab-pane active" id="1">
+                        <div class="tab-content__text">
+                            <p class="tab-content__text-header">Расширьте свои возможности для карьеры в Python</p>
+                            <p class="tab-content__text-p">Работая в сфере машинного обучения, финансов, веб-разработки или сбора и анализа данных, вам наверняка пригодятся навыки работы с Python. Простой синтаксис языка Python особенно хорошо подходит для настольных решений, а также для бизнеса и веб. Ключевыми отличиями Python являются...</p>
+                        </div>
+                        <div class="tab-content__cards">
+                            <ul>
+                                <li>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/python.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Python</h5>
+                                            <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/python.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Python</h5>
+                                            <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/python.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Python</h5>
+                                            <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/python.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Python</h5>
+                                            <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="courses__tab-content-body tab-pane" id="3">
+                        <div class="tab-content__text">
+                            <p class="tab-content__text-header">Создавайте веб-сайты и приложения с навыками веб-разработки</p>
+                            <p class="tab-content__text-p">Мир разработки отличается невероятным разнообразием и зачастую связан с интернетом. Большая часть нашей жизни также связана с интернетом, поэтому новые отрасли постоянно стремятся создавать, поддерживать и улучшать сайты и приложения, которые становятся неотъемлемой частью нашей жизни.</p>
+                        </div>
+                        <div class="tab-content__cards">
+                            <ul>
+                                <li>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/web.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Веб-разработка</h5>
+                                            <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/web.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Веб-разработка</h5>
+                                            <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/web.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Веб-разработка</h5>
+                                            <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/web.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Веб-разработка</h5>
+                                            <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="courses__tab-content-body tab-pane" id="4">
+                        <div class="tab-content__text">
+                            <p class="tab-content__text-header">Развивайте свои навыки разработки ПО с JavaScript</p>
+                            <p class="tab-content__text-p">JavaScript — один из наиболее распространенных языков программирования в мире, который преимущественно используется для интерактивных веб-приложений. Кроме того, JavaScript хорошо подойдет для начинающих, поскольку с его помощью можно писать код и получать визуальный результат...</p>
+                        </div>
+                        <div class="tab-content__cards">
+                            <ul>
+                                <li>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/js.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">JavaScript</h5>
+                                            <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/js.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">JavaScript</h5>
+                                            <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/js.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">JavaScript</h5>
+                                            <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../src/img/course/js.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">JavaScript</h5>
+                                            <p class="card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов..</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="categories" class="category">
+            <div class="category__body">
+                <div class="category__body-header">
+                    <p class="title__text">Популярные категории</p>
+                </div>
+                <div class="category__body-list">
+                    <ul>
+                        <li>
+                            <a href="design.html">
+                                <img src="../src/img/category/design.jpg" alt="">
+                                <p>Дизайн</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="devolper.html">
+                                <img src="../src/img/category/devolper.jpg" alt="">
+                                <p>Разработка</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="it.html">
+                                <img src="../src/img/category/it.jpg" alt="">
+                                <p>ИТ и ПО</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="feedback__body">
+                <div class="feedback__body-header">
+                    <p class="title__text">Обратная связь</p>
+                </div>
+                <div class="feedback__body-content">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Ваше имя</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Иван">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">E-mail адрес</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Задайте вопрос</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Отправить</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer__body">
+                <ul>
+                    <li>
+                        Academy
+                    </li>
+                    <li>
+                        © 2023 Academy , Inc.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+</body>
+</html>

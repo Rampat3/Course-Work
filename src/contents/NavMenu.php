@@ -1,7 +1,7 @@
 <div class="NavMenu">
     <div class="NavMenu__icons">
         <img src="../src/icons/icon.png" alt="">
-        <a href="#">Academy</a>
+        <a href="index.php">Academy</a>
     </div>
     <div class="NavMenu__categories">
         <a href="#categories">Категории</a>
